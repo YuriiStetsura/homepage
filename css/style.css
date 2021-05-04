@@ -38,8 +38,6 @@ img {
 
 body {
   background-image: url('../img/bg.jpeg');
-  /* background: #3f5efb;
-  background: linear-gradient(0deg, #3f5efb 0%, #fc466b 100%); */
 }
 
 .main {
@@ -78,10 +76,12 @@ body {
   justify-content: flex-start;
   margin-left: 50px;
 }
+
 .fio_img {
   width: 150px;
   height: 150px;
 }
+
 .fio_img-img {
   border-radius: 50%;
 }
@@ -114,6 +114,7 @@ body {
   margin-left: 50px;
   margin-top: 30px;
 }
+
 .contact_item {
   background: #ffffff4f;
   width: calc(100% - 50px);
@@ -125,6 +126,7 @@ body {
   align-items: center;
   margin-top: 10px;
 }
+
 .contact_item-ul {
   background: #ffffff4f;
   width: calc(100% - 50px);
@@ -137,17 +139,17 @@ body {
   margin-top: 10px;
   line-height: 1.5;
 }
+
 .contact_item-ul > li {
   list-style: disc inside;
 }
+
 .contact_item > svg {
   margin-right: 20px;
 }
 
 .right {
   background: #ffffff4f;
-  /* background: white; */
-  /* height: 930px; */
   height: 100%;
   padding: 20px 30px;
   color: black;
@@ -156,6 +158,7 @@ body {
 .experience {
   margin-top: 20px;
 }
+
 .experience_item {
   margin-top: 20px;
   line-height: 1.5;
@@ -186,10 +189,12 @@ body {
   align-items: center;
   margin-top: 20px;
 }
+
 .skills_title {
   font-weight: 600;
   font-size: 22px;
 }
+
 .skills_item {
   display: flex;
   flex-direction: column;
@@ -234,8 +239,4 @@ progress {
   text-decoration: none;
 }
 
-.white {
-  color: #e0e0e0
-}
-
-/*# sourceMappingURL=style.css.map */
+.white { color: #e0e0e0; }
