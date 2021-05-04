@@ -1,192 +1,150 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta charset="UTF-8" />
-  <title>Résumé</title>
-  <link rel="stylesheet" href="https://binary-studio-academy.github.io/stage-2/assets/stylesheets/base.css">
-  <link rel="stylesheet" href='./css/style.css'>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <title>Yurii Stetsura</title>
 </head>
 
 <body>
-  <main>
-    <article>
-      <div class="page" style="border-color: midnightblue;">
-        <div class="stackable grid">
-          <div class="row">
-            <div class="three wide center aligned column">
-              <!-- <div class="avatar-wrapper"> -->
-              <object class="avatar" data="./assets/images/avatar.jpeg" role="img"
-                aria-label="My profile picture"></object>
-              <!-- </div> -->
-            </div>
-            <div class="thirteen wide column">
-              <div class="stackable grid">
-                <div class="sixteen wide column boxShadow16">
-                  <h1 class="name">Chuck Norris</h1>
-                  <ul class="contacts">
-                    <li>
-                      <a href="#" rel="author" class="linkedin">
-                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                          <path
-                            d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
-                        </svg>
-                        <span>chuck_norris</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" rel="author" class="github">
-                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
-                          <path
-                            d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
-                        </svg>
-                        <span>chuck_norris</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" rel="author" class="facebook">
-                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                          <path
-                            d="M448 56.7v398.5c0 13.7-11.1 24.7-24.7 24.7H309.1V306.5h58.2l8.7-67.6h-67v-43.2c0-19.6 5.4-32.9 33.5-32.9h35.8v-60.5c-6.2-.8-27.4-2.7-52.2-2.7-51.6 0-87 31.5-87 89.4v49.9h-58.4v67.6h58.4V480H24.7C11.1 480 0 468.9 0 455.3V56.7C0 43.1 11.1 32 24.7 32h398.5c13.7 0 24.8 11.1 24.8 24.7z" />
-                        </svg>
-                        <span>chuck_norris</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" rel="author" class="skype">
-                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                          <path
-                            d="M424.7 299.8c2.9-14 4.7-28.9 4.7-43.8 0-113.5-91.9-205.3-205.3-205.3-14.9 0-29.7 1.7-43.8 4.7C161.3 40.7 137.7 32 112 32 50.2 32 0 82.2 0 144c0 25.7 8.7 49.3 23.3 68.2-2.9 14-4.7 28.9-4.7 43.8 0 113.5 91.9 205.3 205.3 205.3 14.9 0 29.7-1.7 43.8-4.7 19 14.6 42.6 23.3 68.2 23.3 61.8 0 112-50.2 112-112 .1-25.6-8.6-49.2-23.2-68.1zm-194.6 91.5c-65.6 0-120.5-29.2-120.5-65 0-16 9-30.6 29.5-30.6 31.2 0 34.1 44.9 88.1 44.9 25.7 0 42.3-11.4 42.3-26.3 0-18.7-16-21.6-42-28-62.5-15.4-117.8-22-117.8-87.2 0-59.2 58.6-81.1 109.1-81.1 55.1 0 110.8 21.9 110.8 55.4 0 16.9-11.4 31.8-30.3 31.8-28.3 0-29.2-33.5-75-33.5-25.7 0-42 7-42 22.5 0 19.8 20.8 21.8 69.1 33 41.4 9.3 90.7 26.8 90.7 77.6 0 59.1-57.1 86.5-112 86.5z" />
-                        </svg>
-                        <span>chuck_norris</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" rel="author" class="telegram">
-                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                          <path fill="currentColor"
-                            d="M446.7 98.6l-67.6 318.8c-5.1 22.5-18.4 28.1-37.3 17.5l-103-75.9-49.7 47.8c-5.5 5.5-10.1 10.1-20.7 10.1l7.4-104.9 190.9-172.5c8.3-7.4-1.8-11.5-12.9-4.1L117.8 284 16.2 252.2c-22.1-6.9-22.5-22.1 4.6-32.7L418.2 66.4c18.4-6.9 34.5 4.1 28.5 32.2z">
-                          </path>
-                        </svg>
-                        <span>chuck norris</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" rel="author" class="mail">
-                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                          <path
-                            d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z">
-                          </path>
-                        </svg>
-                        <span>chuck_norris@me.com</span>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-                <div class="sixteen wide mobile only column">
-                  <div class="divider"></div>
-                </div>
-                <div class="sixteen wide column">
-                  <h2>Resume</h2>
-                  <p>
-                    I am a dynamic figure, often seen scaling walls and crushing ice. I have been known to remodel train
-                    stations on my lunch breaks, making them more efficient in the area of heat retention. I translate
-                    ethnic slurs for Cuban refugees, I write award-winning operas, I manage time efficiently.
-                    Occasionally, I tread water for three days in a row.
-                  </p>
-                </div>
-              </div>
-            </div>
+  <header></header>
+  <main class="main">
+    <div class="wrapper">
+      <div class="side left">
+        <div class="fio">
+          <div class="fio_img">
+            <img src="./img/ava.jpeg" alt="" class="fio_img-img" />
           </div>
-          <div class="row">
-            <div class="sixteen wide column">
-              <div class="fat divider"></div>
-            </div>
+          <div class="fio_name">
+            <p class="name">Yurii</p>
+            <p class="coname">Stetsura</p>
+            <p class="position">Front-end developer</p>
           </div>
-          <div class="row">
-            <div class="ten wide column">
-              <h3>Experience</h3>
-              <ol class="rounded">
-                <li><a href="#">1958 to 1968: United States Air Force and Martial arts breakthrough</a></li>
-                <li><a href="#">1970 to 1978: Early roles and breakthrough</a></li>
-                <li><a href="#">1979 to 1983: Action film star</a></li>
-                <li><a href="#">1984 to 1988: Mainstream success</a></li>
-                <li><a href="#">1989 to 1999: Subsequent success</a></li>
-              </ol>
+        </div>
+        <div class="contact">
+          <p class="contact_item">
+            <svg width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M18.7334 0H2.7334C1.6334 0 0.743398 0.9 0.743398 2L0.733398 14C0.733398 15.1 1.6334 16 2.7334 16H18.7334C19.8334 16 20.7334 15.1 20.7334 14V2C20.7334 0.9 19.8334 0 18.7334 0ZM18.7334 4L10.7334 9L2.7334 4V2L10.7334 7L18.7334 2V4Z"
+                fill="white" />
+            </svg>
+            y.stetsura@gmail.com
+          </p>
+          <p class="contact_item">
+            <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M17.7434 12.38C16.5134 12.38 15.3234 12.18 14.2134 11.82C13.8634 11.7 13.4734 11.79 13.2034 12.06L11.6334 14.03C8.8034 12.68 6.1534 10.13 4.7434 7.2L6.6934 5.54C6.9634 5.26 7.0434 4.87 6.9334 4.52C6.5634 3.41 6.3734 2.22 6.3734 0.99C6.3734 0.45 5.9234 0 5.3834 0H1.9234C1.3834 0 0.733398 0.24 0.733398 0.99C0.733398 10.28 8.4634 18 17.7434 18C18.4534 18 18.7334 17.37 18.7334 16.82V13.37C18.7334 12.83 18.2834 12.38 17.7434 12.38Z"
+                fill="white" />
+            </svg>
+            +380 93 449 74 01
+          </p>
+          <p class="contact_item">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M19.8521 3.88125C17.6865 1.71094 14.799 0.515625 11.7334 0.515625C8.66777 0.515625 5.78027 1.71094 3.61465 3.88125C1.44902 6.05156 0.249023 8.93437 0.249023 12C0.249023 15.0656 1.44434 17.9531 3.61465 20.1188C5.78496 22.2844 8.66777 23.4844 11.7334 23.4844C14.799 23.4844 17.6865 22.2891 19.8521 20.1188C22.0178 17.9484 23.2178 15.0656 23.2178 12C23.2178 8.93437 22.0225 6.04688 19.8521 3.88125ZM22.1771 11.4844H17.724C17.6818 9.7125 17.4334 8.00625 16.9975 6.49219C17.8459 6.05625 18.6381 5.50781 19.3646 4.86094C21.0053 6.61406 22.0506 8.92969 22.1771 11.4844ZM12.249 12.5156H16.6975C16.66 14.1469 16.435 15.7078 16.0459 17.1047C14.8459 16.6219 13.5662 16.3406 12.249 16.2797V12.5156ZM18.624 4.14375C18.024 4.67344 17.3678 5.12344 16.674 5.49844C16.4959 5.00156 16.2943 4.53281 16.0693 4.09219C15.624 3.21094 15.1178 2.48906 14.56 1.93594C16.0834 2.3625 17.4662 3.12656 18.624 4.14375ZM12.249 1.70625C13.3225 1.94531 14.335 2.93437 15.1506 4.54688C15.3709 4.98281 15.5678 5.44687 15.7412 5.93906C14.6396 6.39375 13.4631 6.66094 12.249 6.72187V1.70625ZM16.0506 6.92813C16.435 8.31563 16.6553 9.86719 16.6928 11.4891H12.249V7.75781C13.5709 7.69688 14.8506 7.41094 16.0506 6.92813ZM11.2178 11.4844H6.76934C6.80684 9.8625 7.02715 8.31094 7.41152 6.92344C8.61152 7.41094 9.8959 7.69219 11.2131 7.74844V11.4844H11.2178ZM11.2225 1.70625V6.72187C10.0084 6.66094 8.82715 6.39375 7.73027 5.93906C7.90371 5.44687 8.10059 4.98281 8.3209 4.54688C9.13652 2.93437 10.149 1.94531 11.2225 1.70625ZM8.91152 1.93594C8.35371 2.48906 7.84746 3.21563 7.40215 4.09219C7.18184 4.53281 6.98027 5.00156 6.79746 5.49844C6.10371 5.12344 5.45215 4.67344 4.84746 4.14375C6.00527 3.12656 7.38809 2.3625 8.91152 1.93594ZM4.10684 4.86094C4.8334 5.50781 5.62559 6.05156 6.47402 6.49219C6.03809 8.01094 5.78496 9.7125 5.74746 11.4844H1.29434C1.4209 8.92969 2.46621 6.61406 4.10684 4.86094ZM1.29434 12.5156H5.74746C5.78965 14.3016 6.04277 16.0125 6.4834 17.5359C5.63965 17.9719 4.84746 18.5109 4.12559 19.1578C2.4709 17.4 1.4209 15.0797 1.29434 12.5156ZM4.86621 19.875C5.46621 19.35 6.11777 18.9 6.80684 18.5297C6.98496 19.0125 7.18184 19.4766 7.40215 19.9078C7.84746 20.7891 8.35371 21.5109 8.91152 22.0687C7.39746 21.6422 6.01934 20.8828 4.86621 19.875ZM11.2225 22.2938C10.149 22.0547 9.13652 21.0656 8.3209 19.4531C8.10527 19.0266 7.91309 18.5719 7.73965 18.0891C8.83652 17.6344 10.0131 17.3672 11.2225 17.3109V22.2938ZM7.42559 17.1047C7.03652 15.7078 6.81152 14.1469 6.77402 12.5156H11.2225V16.2797C9.90527 16.3359 8.62559 16.6172 7.42559 17.1047ZM12.2537 22.2938V17.3109C13.4631 17.3719 14.6396 17.6344 15.7365 18.0891C15.5631 18.5719 15.3709 19.0266 15.1553 19.4531C14.3396 21.0656 13.3271 22.0547 12.2537 22.2938ZM14.5646 22.0641C15.1225 21.5109 15.6287 20.7844 16.074 19.9031C16.2943 19.4719 16.4912 19.0078 16.6693 18.525C17.3584 18.8953 18.01 19.3453 18.61 19.8703C17.4568 20.8828 16.0787 21.6422 14.5646 22.0641ZM19.3553 19.1578C18.6334 18.5156 17.8412 17.9719 16.9975 17.5359C17.4381 16.0125 17.6912 14.2969 17.7334 12.5156H22.1865C22.0553 15.0797 21.0053 17.4 19.3553 19.1578Z"
+                fill="white" />
+            </svg>
+            <a class='social-link' href="http://linkedin.com/in/yurii-stetsura-77294120a/" target="_blank">www.linkedin.com</a>
+          </p>
+          <p class="contact_item">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M19.8521 3.88125C17.6865 1.71094 14.799 0.515625 11.7334 0.515625C8.66777 0.515625 5.78027 1.71094 3.61465 3.88125C1.44902 6.05156 0.249023 8.93437 0.249023 12C0.249023 15.0656 1.44434 17.9531 3.61465 20.1188C5.78496 22.2844 8.66777 23.4844 11.7334 23.4844C14.799 23.4844 17.6865 22.2891 19.8521 20.1188C22.0178 17.9484 23.2178 15.0656 23.2178 12C23.2178 8.93437 22.0225 6.04688 19.8521 3.88125ZM22.1771 11.4844H17.724C17.6818 9.7125 17.4334 8.00625 16.9975 6.49219C17.8459 6.05625 18.6381 5.50781 19.3646 4.86094C21.0053 6.61406 22.0506 8.92969 22.1771 11.4844ZM12.249 12.5156H16.6975C16.66 14.1469 16.435 15.7078 16.0459 17.1047C14.8459 16.6219 13.5662 16.3406 12.249 16.2797V12.5156ZM18.624 4.14375C18.024 4.67344 17.3678 5.12344 16.674 5.49844C16.4959 5.00156 16.2943 4.53281 16.0693 4.09219C15.624 3.21094 15.1178 2.48906 14.56 1.93594C16.0834 2.3625 17.4662 3.12656 18.624 4.14375ZM12.249 1.70625C13.3225 1.94531 14.335 2.93437 15.1506 4.54688C15.3709 4.98281 15.5678 5.44687 15.7412 5.93906C14.6396 6.39375 13.4631 6.66094 12.249 6.72187V1.70625ZM16.0506 6.92813C16.435 8.31563 16.6553 9.86719 16.6928 11.4891H12.249V7.75781C13.5709 7.69688 14.8506 7.41094 16.0506 6.92813ZM11.2178 11.4844H6.76934C6.80684 9.8625 7.02715 8.31094 7.41152 6.92344C8.61152 7.41094 9.8959 7.69219 11.2131 7.74844V11.4844H11.2178ZM11.2225 1.70625V6.72187C10.0084 6.66094 8.82715 6.39375 7.73027 5.93906C7.90371 5.44687 8.10059 4.98281 8.3209 4.54688C9.13652 2.93437 10.149 1.94531 11.2225 1.70625ZM8.91152 1.93594C8.35371 2.48906 7.84746 3.21563 7.40215 4.09219C7.18184 4.53281 6.98027 5.00156 6.79746 5.49844C6.10371 5.12344 5.45215 4.67344 4.84746 4.14375C6.00527 3.12656 7.38809 2.3625 8.91152 1.93594ZM4.10684 4.86094C4.8334 5.50781 5.62559 6.05156 6.47402 6.49219C6.03809 8.01094 5.78496 9.7125 5.74746 11.4844H1.29434C1.4209 8.92969 2.46621 6.61406 4.10684 4.86094ZM1.29434 12.5156H5.74746C5.78965 14.3016 6.04277 16.0125 6.4834 17.5359C5.63965 17.9719 4.84746 18.5109 4.12559 19.1578C2.4709 17.4 1.4209 15.0797 1.29434 12.5156ZM4.86621 19.875C5.46621 19.35 6.11777 18.9 6.80684 18.5297C6.98496 19.0125 7.18184 19.4766 7.40215 19.9078C7.84746 20.7891 8.35371 21.5109 8.91152 22.0687C7.39746 21.6422 6.01934 20.8828 4.86621 19.875ZM11.2225 22.2938C10.149 22.0547 9.13652 21.0656 8.3209 19.4531C8.10527 19.0266 7.91309 18.5719 7.73965 18.0891C8.83652 17.6344 10.0131 17.3672 11.2225 17.3109V22.2938ZM7.42559 17.1047C7.03652 15.7078 6.81152 14.1469 6.77402 12.5156H11.2225V16.2797C9.90527 16.3359 8.62559 16.6172 7.42559 17.1047ZM12.2537 22.2938V17.3109C13.4631 17.3719 14.6396 17.6344 15.7365 18.0891C15.5631 18.5719 15.3709 19.0266 15.1553 19.4531C14.3396 21.0656 13.3271 22.0547 12.2537 22.2938ZM14.5646 22.0641C15.1225 21.5109 15.6287 20.7844 16.074 19.9031C16.2943 19.4719 16.4912 19.0078 16.6693 18.525C17.3584 18.8953 18.01 19.3453 18.61 19.8703C17.4568 20.8828 16.0787 21.6422 14.5646 22.0641ZM19.3553 19.1578C18.6334 18.5156 17.8412 17.9719 16.9975 17.5359C17.4381 16.0125 17.6912 14.2969 17.7334 12.5156H22.1865C22.0553 15.0797 21.0053 17.4 19.3553 19.1578Z"
+                fill="white" />
+            </svg>
+            <a class='social-link' href="https://github.com/YuriiStetsura" target="_blank">www.github.com</a>
+          </p>
+          <p class="contact_item">
+            <svg width="14" height="20" viewBox="0 0 14 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M7 0C3.13 0 0 3.13 0 7C0 12.25 7 20 7 20C7 20 14 12.25 14 7C14 3.13 10.87 0 7 0ZM7 9.5C5.62 9.5 4.5 8.38 4.5 7C4.5 5.62 5.62 4.5 7 4.5C8.38 4.5 9.5 5.62 9.5 7C9.5 8.38 8.38 9.5 7 9.5Z"
+                fill="white" />
+            </svg>
+            Lviv
+          </p>
+          <ul class="contact_item-ul">
+            Likes
+            <li>Hiking</li>
+            <li>Workout</li>
+            <li>Humour</li>
+            <li>Pizza</li>
+          </ul>
+          <div class="contact_item-ul">
+            Language
+            <li>English - B1</li>
+            <li>Ukraine - fluent</li>
+            <li>Russian - fluent</li>
+          </div>
+          <div class="contact_item-ul">
+            Social
+            <li>Instagram</li>
+            <li>Facebook</li>
+            <li>Twitter</li>
+          </div>
+        </div>
+      </div>
+      <div class="side right">
+        <div class="experience">
+          <span class="title">Summary</span>
+          <div class="experience_item">
+            <p class="experience_text big bold">About me</p>
+            <p class="experience_text white">
+              A highly motivated person with strong knowledge in software engineering and js programing principles.
+              Quickly learn and master master new technologies. I am looking for my place in a strong team to absorb
+              experience and use it for product and company development.
+            </p>
+          </div>
+        </div>
+        <div class="education">
+          <span class="title">education</span>
+          <div class="experience_item">
+            <p class="experience_text big bold">Lviv National University Ivan Franko</p>
+            <p class="experience_text bold">Bachelor</p>
+            <p class="experience_text thin">09.2012 - 06.2016</p>
+          </div>
+          <div class="experience_item">
+            <p class="experience_text big bold">Lviv National University Ivan Franko</p>
+            <p class="experience_text bold">Master</p>
+            <p class="experience_text thin">09.2016 - 06.2017</p>
+          </div>
+          <div class="experience_item">
+            <p class="experience_text big bold">IT Academy</p>
+            <p class="experience_text bold">SoftServe IT Academy, React Marathon</p>
+            <p class="experience_text thin">03.2021 - 05.2021</p>
+          </div>
+        </div>
+        <div class="skills">
+          <span class="title">my skills</span>
+          <div class="skills_wrapper">
+            <div class="skills_item">
+              <p class="skills_title">HTML</p>
+              <progress value="80" max="100">70 %</progress>
             </div>
-            <div class="six wide column">
-              <section>
-                <h3>Languages</h3>
-                <p class="tags small"><span class="language" lang="en">&#x1f1fa;&#x1f1f8; ENGLISH</span></p>
-              </section>
-              <section>
-                <h3>Skills</h3>
-                <ol class="rounded">
-                  <li><a href="#">I have never blinked in his entire life. Never.</a></li>
-                  <li><a href="#">I don't sleep. I wait.</a></li>
-                  <li><a href="#">I can dribble a bowling ball.</a></li>
-                  <li><a href="#">I drink napalm to fight my heartburn.</a></li>
-                </ol>
-              </section>
-              <section>
-                <h3>Character</h3>
-                <p class="tags small">EXPLORER STRAIGHTFORWARD <a href="https://www.16personalities.com/entp-personality" rel="external">DEBATER</a> DEVOTED PEDANTIC AGNOSTIC CONTENTIOUS PROCRASTINATOR RELEVANT EMPATHETIC STORYTELLER CONFIDENT CONSISTENT CHALLENGING</p>
-              </section>
-              <section>
-                <h3>Likes&#x1f603;</h3>
-                <p class="tags small">HUMOUR PATIENCE DOGS MOVIES AAPL DEMOCRACY <span class="nowrap">FC BARCELONA</span> JÄGERMEISTER LVIV FRISBEE <button id="midnightblue" class="color midnightblue">MIDNIGHT BLUE</button> ELECTROPOP CUCINA ITALIANA ‘80S SELF-EDUCATION <button id="meh"><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M576 256c0 100.586-53.229 189.576-134.123 239.04-7.532 4.606-17.385 2.241-21.997-5.304-4.609-7.539-2.235-17.388 5.304-21.997C496.549 424.101 544 345.467 544 256c0-89.468-47.452-168.101-118.816-211.739-7.539-4.609-9.913-14.458-5.304-21.997 4.608-7.539 14.456-9.914 21.997-5.304C522.77 66.424 576 155.413 576 256zm-96 0c0-66.099-34.976-124.572-88.133-157.079-7.538-4.611-17.388-2.235-21.997 5.302-4.61 7.539-2.236 17.388 5.302 21.998C418.902 152.963 448 201.134 448 256c0 54.872-29.103 103.04-72.828 129.779-7.538 4.61-9.912 14.459-5.302 21.998 4.611 7.541 14.462 9.911 21.997 5.302C445.024 380.572 480 322.099 480 256zm-138.14-75.117c-7.538-4.615-17.388-2.239-21.998 5.297-4.612 7.537-2.241 17.387 5.297 21.998C341.966 218.462 352 236.34 352 256s-10.034 37.538-26.841 47.822c-7.538 4.611-9.909 14.461-5.297 21.998 4.611 7.538 14.463 9.909 21.998 5.297C368.247 314.972 384 286.891 384 256s-15.753-58.972-42.14-75.117zM256 88.017v335.964c0 21.436-25.942 31.999-40.971 16.971L126.059 352H24c-13.255 0-24-10.745-24-24V184c0-13.255 10.745-24 24-24h102.059l88.971-88.954C230.037 56.038 256 66.551 256 88.017zm-32 19.311l-77.659 77.644A24.001 24.001 0 0 1 129.372 192H32v128h97.372a24.001 24.001 0 0 1 16.969 7.028L224 404.67V107.328z"/></svg> MEH
-                  <audio preload="none">
-                    <source src="./assets/sounds/meh.mp3" type="audio/mpeg">
-                    </audio>
-                  </button> <span class="nowrap">ATTENTION TO DETAILS</span> GRAMMAR SPELLCHECK SEMANTICS MINI-SERIES <span class="nowrap">RYAN GOSLING</span> <span class="nowrap">EMMA STONE</span> ​<span class="nowrap">CURAPROX 5460</span></p>
-              </section>
-              <section>
-                <h3>Dislikes&#x1f61e;</h3>
-                <p class="tags small"><span class="nowrap">OWN BAD HABITS</span> POLITICS RACISM ASS-KISSERS VODKA INCOMPETENCE ARROGANCE ENVY GOLF <button id="chartreuse" class="color chartreuse">CHARTREUSE</button> INSECTS METRO PREJUDICE REALITY-SHOWS JŪRMALA</p>
-              </section>
-              <section>
-                <h3>Wants&#x1f97a;</h3>
-                <p class="tags small bulleted"><span class="tag">TO BE FIT AND HEALTHY</span><span class="tag">TO OWN MY SCHEDULE</span><span class="tag">TO READ MORE</span><span class="tag">TO OPEN A CAFÉ</span><span class="tag">TO BE BRAVE</span><span class="tag">TO BECOME A SUPERHERO</span><span class="tag">TO LISTEN AND LEARN</span></p>
-              </section>
-              <!-- Education -->
-              <section>
-                <h3>Education</h3>
-                <ul class="timeline">
-                  <li>
-                    <div><em>Every day</em></div>
-                    <p class="tags bulleted">
-                      <span class="tag"><a href="https://frontendfront.com/" rel="external"><strong>Front-End Front</strong></a></span><span class="tag"><a href="https://dribbble.com/" rel="external"><strong>Dribbble</strong></a></span><span class="tag"><a href="https://goodui.org/" rel="external"><strong>GoodUI</strong></a></span><span class="tag"><a href="https://egghead.io/" rel="external"><strong>egghead.io</strong></a></span><span class="tag"><a href="https://theverge.com/" rel="external"><strong>The Verge</strong></a></span><span class="tag"><a href="https://uncrate.com/" rel="external"><strong>Uncrate</strong></a></span>
-                    </p>
-                  </li>
-                  <li>
-                    <div><em>December 2005 &ndash; April 2006</em></div>
-                    <div><strong>Certificates of CCNA Course Completion</strong> at <a href="https://www.netacad.com/" rel="external"><strong>Cisco Networking Academy Program</strong></a></div>
-                  </li>
-                  <li>
-                    <div><em>1<sup>st</sup> September 2003 &ndash; 30<sup>th</sup> June 2008</em></div>
-                    <div><strong>Bachelor's degree</strong> in <strong>computer science</strong> at <a href="http://tntu.edu.ua//?p=en/home" rel="external"><strong>Ternopil National Technical University</strong></a></div>
-                  </li>
-                  <li>
-                    <div><em>1<sup>st</sup> October 1995 &ndash; 23<sup>rd</sup> May 1999</em></div>
-                    <div><strong>Certificate of graduation</strong> at <strong>Ternopil Art School for Children</strong></div>
-                  </li>
-                  <li>
-                    <div><em>1<sup>st</sup> September 1993 &ndash; 21<sup>st</sup> June 2003</em></div>
-                    <div><strong>Certificate of graduation</strong> at <strong>№20 Middle School of General Education</strong></div>
-                  </li>
-                </ul>
-              </section>
-              <!-- Articles -->
-              <section>
-                <h3>Articles</h3>
-                <p>None published <sup><em>yet</em></sup></p>
-              </section>
+            <div class="skills_item">
+              <p class="skills_title">CSS</p>
+              <progress value="80" max="100">70 %</progress>
+            </div>
+            <div class="skills_item">
+              <p class="skills_title">JavaScript</p>
+              <progress value="90" max="100">70 %</progress>
+            </div>
+            <div class="skills_item">
+              <p class="skills_title">React, Redux</p>
+              <progress value="80" max="100">70 %</progress>
+            </div>
+            <div class="skills_item">
+              <p class="skills_title">TypeScript</p>
+              <progress value="45" max="100">45 %</progress>
             </div>
           </div>
         </div>
       </div>
-    </article>
+    </div>
   </main>
+  <footer></footer>
 </body>
 
 </html>
